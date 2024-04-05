@@ -1,10 +1,13 @@
 import { MdAdfScanner } from "react-icons/md";
-import {ButtonPrimary, Input, Label} from "./components/ui";
+import {ButtonPrimary, Input, Label} from "./components/shared/ui";
+import Sidebar from "./components/shared/Sidebar";
+import  "./App.css";
 
 
 export default function Example() {
   return (
     <>
+    <Sidebar/>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <h3> Lets go for a <MdAdfScanner />? </h3>
